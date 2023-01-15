@@ -1,1 +1,14 @@
-test
+Recap du cour sur Git.
+
+-- CREATION D'UNE BRANCH 
+
+	- CLoner un Depot | Git clone "Lien Du Depot"
+
+	-On peut crée une branch avec | Git branch nomDeLaBranch
+				      | Git checkout -b nomDeLaBranch
+				       	-b signifie que si la branche n'existe pas 
+					on crée et on switch dessu
+	- On sauvegarde le travaille avec | git add * (pour sauvegarder tout)
+				 	  | git commit -m "Commentaire"
+	- On envoie tout sur le Git avec  | Git push origin NomDeLaBranch
+
